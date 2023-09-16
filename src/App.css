@@ -1,0 +1,255 @@
+/*header */
+
+.n-wrapper {
+  height: 10vh;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #000080;
+}
+
+.Nav1 {
+  height: 12vh;
+  margin-left: 10px;
+  flex: 1;
+  font-style: italic;
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  color: orange;
+  font-weight: bolder;
+}
+
+.Nav1 {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Nav2 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.links {
+  flex: 10;
+  transition: border-bottom 0.3s ease;
+}
+
+.links > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+  color: white;
+}
+
+.links > ul > li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #007bff;
+}
+
+/* .n-button{
+  cursor: pointer;
+  flex:2;
+} */
+
+.btn-outline-light {
+  cursor: pointer;
+  flex: 2;
+}
+.n-wrapper {
+  height: 12vh;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #000080;
+}
+
+.Nav1 {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  color: orange;
+}
+
+.Nav1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.Nav2 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.links {
+  flex: 10;
+}
+
+.links > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 0.5rem;
+  height: 2vh;
+  color: palegoldenrod;
+}
+
+.links > ul > li:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
+
+.btn btn-primary {
+  background-color: navy;
+}
+
+/* .n-button{
+  cursor: pointer;
+  flex:2;
+} */
+
+.btn-outline-light {
+  cursor: pointer;
+  flex: 2;
+  color: navy;
+}
+
+/* home page */
+
+.image {
+  height: 700px;
+}
+
+.description {
+  background-color: rgb(67, 40, 163);
+  color: #fff;
+  width: 60%;
+  margin-top: 70px;
+  padding: 20px;
+  line-height: 30px;
+  border-radius: 0 4rem 4rem 0px;
+  font-style: italic;
+}
+
+.aboutus {
+  background-color: rgb(67, 40, 163);
+  background-color: ;
+  color: #fff;
+  width: 60%;
+  margin-top: 70px;
+  margin-left: 40%;
+  margin-bottom: 4%;
+  padding: 20px;
+  line-height: 30px;
+  border-radius: 4rem 0 0 4rem;
+  font-style: italic;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  color: navy;
+}
+
+/* footer */
+.footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  gap: 5rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*login page */
+
+.loginpg {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.login {
+  margin-top: 150px;
+}
+
+/*profile page */
+
+.pbig {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/*forgot page */
+.ForgottenPassword {
+  height: 80vh;
+  background-color: navy;
+}
+
+.forgot-password-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.forgot-password-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  /* display: block; */
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.n-name {
+  font-size: 40px;
+  color: palegoldenrod;
+}
+
+.HomeB {
+  background-color: rgb(196, 237, 255);
+  height: 100%;
+  padding-bottom: 15px;
+}
